@@ -4,8 +4,7 @@
   "description": "HStream Cloud Documentation.",
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
-    "preview": "vitepress preview docs"
+    "build": "vuepress build docs"
   },
   "author": "Yue Yang <g1enyy0ung@gmail.com>",
   "devDependencies": {
