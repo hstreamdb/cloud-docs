@@ -23,10 +23,10 @@ After clicking **New Stream** button, you will see a modal dialog. In this dialo
 
 3. Fill in the number of **replicas** for each stream. Default value is **1**. Please adjust the number of replicas according to your actual needs.
 
-4. Fill in the number of **rentention** for each stream. Default value is **24**. Unit is **hour**.
+4. Fill in the number of **retention** for each stream. Default value is **24**. Unit is **hour**.
 
 5. Click **Create** button to create a stream.
 
 ::: tip
-For more details about **replicas** and **rentention**, please refer to [Attributes of a Stream](https://hstream.io/docs/en/latest/guides/stream.html#attributes-of-a-stream).
+For more details about **replicas** and **retention**, please refer to [Attributes of a Stream](https://hstream.io/docs/en/latest/guides/stream.html#attributes-of-a-stream).
 :::
