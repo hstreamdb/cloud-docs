@@ -1,7 +1,7 @@
 # Write Records to a Stream
 
 After creating a stream, you can write records to it according to the needs of your application.
-This section describes how to write records to a stream.
+This page describes how to write records to a stream.
 
 ## Step1. Preparation
 
@@ -13,7 +13,7 @@ In order to write records, you need to create a stream first.
 
 3. Click **Write Records** button to write records to the stream.
 
-## Step2. Write Records
+## Step2. Write records
 
 A record is like a piece of JSON data. You can add arbitrary fields to a record, only ensure that the record is a valid JSON object.
 

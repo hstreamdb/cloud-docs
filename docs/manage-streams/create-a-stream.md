@@ -6,11 +6,11 @@ This tutorial guides you through creating a stream in the dashboard.
 
 1. If you do not have a account, please register an account first and log in. After logging in, you will into the **Streams** page directly.
 
-2. If you alraedy logged in, click **Streams** on the left sidebar to enter the streams page.
+2. If you already logged in, click **Streams** on the left sidebar to enter the streams page.
 
 3. Click **New Stream** button to create a stream.
 
-## Step2. Create a Stream
+## Step2. Create a stream
 
 After clicking **New Stream** button, you will see a dialog. In this dialog, You will set some necessary properties for your stream and create it:
 

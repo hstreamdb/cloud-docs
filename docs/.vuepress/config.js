@@ -2,6 +2,7 @@ import { defineUserConfig, defaultTheme } from 'vuepress'
 
 export default defineUserConfig({
   title: 'HStream Cloud',
+  head: [['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }]],
   theme: defaultTheme({
     logo: '/logo.svg',
     sidebar: [
