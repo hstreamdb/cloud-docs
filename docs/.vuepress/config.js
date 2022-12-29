@@ -46,6 +46,14 @@ export default defineUserConfig({
         children: [{ text: 'Query Records', link: '/data-query/query-records' }],
       },
       {
+        text: 'Connect with Clients',
+        children: [
+          { text: 'Go', link: '/clients/go' },
+          { text: 'Java', link: '/clients/java' },
+          { text: 'Python', link: '/clients/python' },
+        ],
+      },
+      {
         text: 'API',
         children: [
           { text: 'API Overview', link: '/api/overview' },
