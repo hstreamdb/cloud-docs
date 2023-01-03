@@ -48,9 +48,11 @@ export default defineUserConfig({
       {
         text: 'Connect with Clients',
         children: [
-          { text: 'Go', link: '/clients/go' },
           { text: 'Java', link: '/clients/java' },
           { text: 'Python', link: '/clients/python' },
+          { text: 'Go', link: '/clients/go' },
+          { text: 'Rust', link: '/clients/rust' },
+          { text: 'Erlang', link: '/clients/erlang' },
         ],
       },
       {
@@ -61,5 +63,8 @@ export default defineUserConfig({
         ],
       },
     ],
+    themePlugins: {
+      backToTop: false,
+    },
   }),
 })

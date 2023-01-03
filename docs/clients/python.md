@@ -15,11 +15,7 @@ Install hstreamdb:
 pip install hstreamdb
 ```
 
-## Example Usage
-
-Here we will provide some simple examples of how to use hstreamdb-client. For more details on introduction and usage, please check the [guides](https://hstream.io/docs/en/latest/guides/write.html).
-
-### Connect to HServer
+## Connect to HServer
 
 To connect to the HStreamDB instance, you need to find the endpoint on the control panel, where you can also download the security certificates.
 
@@ -37,8 +33,11 @@ async def main(*funcs):
     async with await hstreamdb.insecure_client(host=host, port=port) as client:
         for f in funcs:
             await f(client)
-
 ```
+
+## Example Usage
+
+Here we will provide some simple examples of how to use hstreamdb-client. For more details on introduction and usage, please check the [guides](https://hstream.io/docs/en/latest/guides/write.html).
 
 ### Work with Streams
 

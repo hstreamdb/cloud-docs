@@ -27,11 +27,7 @@ For Gradle Users, the library can be included easily like this:
 implementation 'io.hstream:hstreamdb-java:0.10.0'
 ```
 
-## Example Usage
-
-Here we will provide some simple examples of how to use hstreamdb-client. For more details on introduction and usage, please check the [guides](https://hstream.io/docs/en/latest/guides/write.html).
-
-### Connect to HServer
+## Connect to HServer
 
 To connect to the HStreamDB instance, you need to find the endpoint on the control panel, where you can also download the security certificates.
 
@@ -60,6 +56,10 @@ public class ConnectExample {
     }
 }
 ```
+
+## Example Usage
+
+Here we will provide some simple examples of how to use hstreamdb-client. For more details on introduction and usage, please check the [guides](https://hstream.io/docs/en/latest/guides/write.html).
 
 ### Work with Streams
 
