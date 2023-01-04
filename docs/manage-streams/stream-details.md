@@ -51,11 +51,11 @@ The default duration is **last 5 minutes**. You can select different durations t
 
 The metrics of the stream include (with last 5 minutes as an example), from left to right:
 
-1. The **Requests** chart shows the number of requests to the stream in the last 5 minutes.
-2. The **Failed Requests** chart shows the number of failed requests to the stream in the last 5 minutes.
-3. The **Requests Rate** chart shows the number of requests to the stream per second in the last 5 minutes.
-4. The **Records Rate** chart shows the number of records to the stream per second in the last 5 minutes.
-5. The **Bytes Rate** chart shows the number of bytes to the stream per second in the last 5 minutes.
+1. The **Append requests** chart shows the number of requests to the stream in the last 5 minutes.
+2. The **Failed append requests** chart shows the number of failed requests to the stream in the last 5 minutes.
+3. The **Append requests throughout** chart shows the number of requests to the stream per second in the last 5 minutes.
+4. The **Append records throughout** chart shows the number of records to the stream per second in the last 5 minutes.
+5. The **Append Bytes throughout** chart shows the number of bytes to the stream per second in the last 5 minutes.
 
 ### View stream subscriptions
 
@@ -72,8 +72,8 @@ After clicking the **Shards** tab, you can view the shard details of the stream.
 For each shard, you can view the following information:
 
 1. The shard's **ID**.
-2. The **Range Start** of the shard.
-3. The **Range End** of the shard.
+2. The **Range start** of the shard.
+3. The **Range end** of the shard.
 4. The shard's current **Status**.
 
 You can use the shard's ID to in search records. Please refer to [Search records in a stream](#search-records-in-a-stream) or [Query Records](../data-query/query-records.md).
@@ -91,4 +91,4 @@ To search data in all streams, go to the [Data Query](../data-query/query-record
 You can specify the following parameters to search records:
 
 1. **Shard ID**: The ID of the shard to search.
-2. **Starting Record ID**: The ID of the starting record to search. The default number of records to search is **100**.
+2. **Starting record ID**: The ID of the starting record to search. The default number of records to search is **100**.

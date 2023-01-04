@@ -33,10 +33,10 @@ export default defineUserConfig({
         text: 'Manage Subscriptions',
         children: [
           { text: 'Create a Subscription', link: '/manage-subscriptions/create-a-subscription' },
-          {
-            text: 'Consume Records from a Subscription',
-            link: '/manage-subscriptions/consume-records-from-a-subscription',
-          },
+          // {
+          //   text: 'Consume Records from a Subscription',
+          //   link: '/manage-subscriptions/consume-records-from-a-subscription',
+          // },
           { text: 'Subscription Details', link: '/manage-subscriptions/subscription-details' },
           { text: 'Delete a Subscription', link: '/manage-subscriptions/delete-a-subscription' },
         ],

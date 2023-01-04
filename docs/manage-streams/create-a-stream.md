@@ -26,7 +26,7 @@ After clicking **New Stream** button, you will see a dialog. In this dialog, You
 
 4. Fill in the number of **retention** for each stream. Default value is **24**. Unit is **hour**.
 
-5. Click **Create** button to create a stream.
+5. Click **Confirm** button to create a stream.
 
 ::: tip
 For more details about **replicas** and **retention**, please refer to [Attributes of a Stream](https://hstream.io/docs/en/latest/guides/stream.html#attributes-of-a-stream).

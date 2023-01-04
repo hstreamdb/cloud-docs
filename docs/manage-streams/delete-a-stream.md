@@ -2,6 +2,10 @@
 
 This page describes how to delete a stream.
 
+::: warning
+If a stream has subscriptions exists, this stream cannot be deleted.
+:::
+
 ::: danger
 Deleting a stream is irreversible and the data cannot be recovered after deletion.
 :::
