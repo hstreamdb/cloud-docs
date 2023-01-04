@@ -10,10 +10,6 @@ Add the package to your project dependencies (go.mod).
 go get github.com/hstreamdb/hstreamdb-go
 ```
 
-## Example Usage
-
-Here we will provide some simple examples of how to use hstreamdb-client. For more details on introduction and usage, please check the [guides](https://hstream.io/docs/en/latest/guides/write.html).
-
 ### Connect to HServer
 
 To connect to the HStreamDB instance, you need to find the endpoint on the control panel, where you can also download the security certificates.
@@ -38,6 +34,10 @@ func main() {
     client.Close()
 }
 ```
+
+## Example Usage
+
+Here we will provide some simple examples of how to use hstreamdb-client. For more details on introduction and usage, please check the [guides](https://hstream.io/docs/en/latest/guides/write.html).
 
 ### Work with Streams
 
