@@ -1,7 +1,7 @@
 {
-  "name": "hstream-cloud-docs",
+  "name": "hstream-platform-docs",
   "version": "1.0.0",
-  "description": "HStream Cloud Documentation.",
+  "description": "HStream Platform Documentation.",
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"

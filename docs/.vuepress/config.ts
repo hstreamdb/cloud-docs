@@ -1,7 +1,7 @@
 import { defineUserConfig, defaultTheme } from 'vuepress'
 
 export default defineUserConfig({
-  title: 'HStream Cloud',
+  title: 'HStream Platform',
   head: [['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }]],
   theme: defaultTheme({
     logo: '/logo.svg',
@@ -9,7 +9,7 @@ export default defineUserConfig({
       {
         text: 'Introduction',
         children: [
-          { text: 'What is HStream Cloud', link: '/introduction/what-is-hstream-cloud' },
+          { text: 'What is HStream Platform', link: '/introduction/what-is-hstream-platform' },
           { text: 'Architecture', link: '/introduction/architecture' },
         ],
       },
@@ -17,7 +17,7 @@ export default defineUserConfig({
         text: 'Getting Started',
         children: [
           { text: 'Apply for a Trial', link: '/getting-started/apply-for-a-trial' },
-          { text: 'Try out HStream Cloud', link: '/getting-started/try-out-hstream-cloud' },
+          { text: 'Try out HStream Platform', link: '/getting-started/try-out-hstream-platform' },
         ],
       },
       {

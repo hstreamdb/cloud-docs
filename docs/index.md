@@ -1,1 +1,1 @@
-# HStream Cloud Documentation
+# HStream Platform Documentation
