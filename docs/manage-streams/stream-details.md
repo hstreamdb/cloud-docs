@@ -80,15 +80,23 @@ You can use the shard's ID to in search records. Please refer to [Search records
 
 ### Search records in a stream
 
-After clicking the **Records** tab, you can search records in the stream.
+After clicking the **Records** tab, you can query records in the stream.
 
 ::: tip
 
-To search data in all streams, go to the [Data Query](../data-query/query-records.md) page.
+To query records in all streams, please refer to [Data Query](../data-query/query-records.md).
 
 :::
 
-You can specify the following parameters to search records:
+You can specify the following filters to query records:
 
-1. **Shard ID**: The ID of the shard to search.
-2. **Starting record ID**: The ID of the starting record to search. The default number of records to search is **100**.
+- **Shard**: Select one of the shards in the stream you want to query records from.
+- **Starting record ID**: Search from a specified record ID.
+
+After filling in the filters, click **Search** button to query records.
+
+1. The record's **ID**.
+2. The record's **Key**.
+3. The record's **Value**.
+4. The **Shard ID** of the record.
+5. The **Creation time** of the record.
