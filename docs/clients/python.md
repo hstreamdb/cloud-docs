@@ -22,17 +22,27 @@ To connect to the HStreamDB instance, you need to find the endpoint on the contr
 ```python
 import asyncio
 import hstreamdb
-import os
 
-# NOTE: Replace with your own host and port
-host = os.getenv("GUIDE_HOST", "127.0.0.1")
-port = os.getenv("GUIDE_PORT", 6570)
 
-# Run: asyncio.run(main(your_async_function))
-async def main(*funcs):
-    async with await hstreamdb.insecure_client(host=host, port=port) as client:
-        for f in funcs:
-            await f(client)
+async def main():
+    async with await hstreamdb.secure_client(
+        url="your_service_endpoint",
+        is_creds_file=True,
+        root_certificates="path/to/root_ca.crt",
+        private_key="path/to/client.key",
+        certificate_chain="path/to/client.crt",
+    ) as client:
+        print("Connected")
+
+        ss = await client.list_streams()
+        print("Streams:", list(ss))
+
+        # go ahead
+        # ...
+
+
+if __name__ == "__main__":
+    asyncio.run(main())
 ```
 
 ## Example Usage
