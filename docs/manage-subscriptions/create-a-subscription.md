@@ -4,7 +4,7 @@ This tutorial guides you through creating a subscription in the dashboard.
 
 ## Step1. Preparation
 
-1. If you do not have a account, please register an account first and log in.
+1. If you do not have a account, [register an account first](../getting-started/apply-for-a-trial.md) and log in.
 
 2. If you do not have a stream, please [create a stream](../manage-streams/create-a-stream.md) first.
 

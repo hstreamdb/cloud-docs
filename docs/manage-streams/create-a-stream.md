@@ -4,7 +4,7 @@ This tutorial guides you through creating a stream in the dashboard.
 
 ## Step1. Preparation
 
-1. If you do not have a account, please register an account first and log in. After logging in, you will into the **Streams** page directly.
+1. If you do not have a account, please [register an account first](../getting-started/apply-for-a-trial.md) and log in. After logging in, you will into the **Streams** page directly.
 
 2. If you already logged in, click **Streams** on the left sidebar to enter the streams page.
 
