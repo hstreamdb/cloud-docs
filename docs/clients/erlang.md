@@ -14,7 +14,7 @@ Add the following line to the `deps` field of the file `rebar.config`
 
 Add the following line to the `deps` function of the file `mix.exs`
 
-```exs
+```
 {:hstreamdb_erlang, git: "git@github.com:hstreamdb/hstreamdb_erl.git", branch: "main"}
 ```
 

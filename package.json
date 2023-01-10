@@ -2,14 +2,22 @@
   "name": "hstream-platform-docs",
   "version": "1.0.0",
   "description": "HStream Platform Documentation.",
+  "private": true,
   "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
   },
   "author": "Yue Yang <g1enyy0ung@gmail.com>",
   "devDependencies": {
-    "@vuepress/client": "2.0.0-beta.58",
-    "vue": "^3.2.45",
-    "vuepress": "2.0.0-beta.58"
+    "vitepress": "1.0.0-alpha.35",
+    "vue": "^3.2.45"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search"
+      ]
+    }
   }
 }

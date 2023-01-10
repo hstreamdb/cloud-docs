@@ -12,13 +12,13 @@ Below are several filters you can use to query records:
 - **Shard**: Select one of the shards in the stream you want to query records from.
 - **Starting record ID**: Search from a specified record ID.
 
-:::tip
+::: info
 The **Stream** and **Shard** will be filled automatically after the page loaded.
 Default the filling value is the last stream and the last shard in the stream.
 You can change them to query records from another stream or shard.
 :::
 
-::: tip
+::: info
 Currently, we default to show at most **100 records** after querying. If you want to query more records,
 please specify a recent record ID in the **Starting record ID** field.
 :::

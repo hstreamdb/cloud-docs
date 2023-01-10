@@ -17,7 +17,7 @@ and then write records to the stream and query records from the stream.
 
 A stream will be created at once and you will see the stream in the **Streams** page.
 
-::: tip
+::: info
 For more information about how to create a stream, see [Create a Stream](../manage-streams/create-a-stream.md).
 :::
 
@@ -39,7 +39,7 @@ of the record.
 
 Next, we will query this record from the stream.
 
-::: tip
+::: info
 For more information about how to write records to a stream, see [Write Records to a Stream](../manage-streams/write-records-to-a-stream.md).
 :::
 
