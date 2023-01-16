@@ -66,15 +66,15 @@ export default defineConfig({
         collapsible: true,
         collapsed: false,
       },
-      {
-        text: 'API',
-        items: [
-          { text: 'API Overview', link: '/api/overview' },
-          { text: 'API Reference', link: '/api/reference' },
-        ],
-        collapsible: true,
-        collapsed: false,
-      },
+      // {
+      //   text: 'API',
+      //   items: [
+      //     { text: 'API Overview', link: '/api/overview' },
+      //     { text: 'API Reference', link: '/api/reference' },
+      //   ],
+      //   collapsible: true,
+      //   collapsed: false,
+      // },
     ],
   },
 })
