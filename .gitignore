@@ -126,3 +126,4 @@ docs/.vitepress/cache
 .pnp.*
 
 .DS_Store
+.vscode
