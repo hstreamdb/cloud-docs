@@ -4,7 +4,7 @@
 
 Add the following line to your `Cargo.toml` file:
 
-Use crate from [crates.io](crates.io):
+Use crate from [crates.io](https://crates.io/):
 
 ```toml
 hstreamdb = "0.1.1"
