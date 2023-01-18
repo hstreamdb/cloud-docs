@@ -11,7 +11,7 @@ This tutorial guides you through creating a subscription in the dashboard.
 
 ## Step2. Create a subscription
 
-After clicking the **New Subscription** button, you will see a dialog. In this dialog, You will set some necessary properties for your subscription and create it:
+After clicking the **New Subscription** button, a dialog will pop out. In the dialog, you need to set some necessary properties for your subscription and create it:
 
 1. Specify the **Subscription ID**. You can refer to [Guidelines to name a resource](https://hstream.io/docs/en/latest/guides/streams.html#guidelines-to-name-a-resource) to name a subscription.
 2. Select a stream as the source from the dropdown list.
