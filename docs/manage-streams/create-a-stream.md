@@ -22,7 +22,7 @@ After clicking the **New Stream** button, a dialog will pop out. In the dialog, 
 
 3. Fill in with the number of **replicas** for each stream. The default value is **3**.
 
-4. Fill in with the number of **retention** for each stream. Default value is **24**. Unit is **hour**.
+4. Fill in with the number of **retention** for each stream. Default value is **72**. Unit is **hour**.
 
 5. Click the **Confirm** button to create a stream.
 
