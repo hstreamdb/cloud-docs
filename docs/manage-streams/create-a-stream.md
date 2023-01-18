@@ -20,7 +20,7 @@ After clicking the **New Stream** button, a dialog will pop out. In the dialog, 
 
    The shard is the primary storage unit for the stream. For more details, please refer to [Sharding in HStreamDB](https://hstream.io/docs/en/latest/guides/shards.html#sharding-in-hstreamdb).
 
-3. Fill in with the number of **replicas** for each stream. The default value is **1**.
+3. Fill in with the number of **replicas** for each stream. The default value is **3**.
 
 4. Fill in with the number of **retention** for each stream. Default value is **24**. Unit is **hour**.
 
